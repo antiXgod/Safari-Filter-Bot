@@ -1326,9 +1326,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('✪ ᴜᴘᴅᴀᴛᴇꜱ ✪', callback_data='channels'), 
                     InlineKeyboardButton('⚔️ғᴇᴀᴛᴜʀᴇs ⚔️', callback_data='features')
                 ],[
-                    InlineKeyboardButton('✨ᴜᴘᴅᴀᴛᴇꜱ✨', url=f'https://t.me/Ajeet_bots),
-                    InlineKeyboardButton('⛈️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ⛈️', url=f'https://t.me/ajmoviegroup)
-                ],[
                     InlineKeyboardButton('🍀 Hᴇʟᴘ 🍀', callback_data='help'),
                     InlineKeyboardButton('🤖 ᴀʙᴏᴜᴛ 🤖', callback_data='about')
                 ],[
