@@ -26,7 +26,7 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
-PICS = (environ.get('PICS', 'https://telegra.ph/file/0ed351c8605c23e8cae79.jpg https://telegra.ph/file/6524270c008b60f81f30a.jpg https://telegra.ph/file/848ed57090fd5111ce64d.jpg https://telegra.ph/file/5fe959d96fcc33d1b9dc9.jpg https://telegra.ph/file/ec5f5a031b7826e28360c.jpg https://telegra.ph/file/aa4b77441bb41cfce12d7.jpg https://telegra.ph/file/00ed60e2c89d564d850ef.jpg https://telegra.ph/file/a5d518f6020976bc45264.jpg https://telegra.ph/file/650191ad1f813ca8f41cb.jpg https://telegra.ph/file/c6042704a1bc0a2b52996.jpg https://telegra.ph/file/9d68211fa9dcb208200be.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/fb94ace4ed9a66e52a57f-194df3f66620cd86be.jpg https://graph.org/file/b1dda0011a96cae34a23f-016d0e7572e637f199.jpg https://graph.org/file/b133b6f21538a0b02a154-fe8102c6bbe378cced.jpg https://graph.org/file/6d50d9e1fa52cacf316e6-cd9d47c9e0d1a1f663.jpg https://graph.org/file/053ca62cb24ed6d4dcc6f-11b05ae704e1fbdde2.jpg https://graph.org/file/b1a2100f84ec8bad3e48e-8d6212f05af376e82a.jpg https://graph.org/file/999e7befe9e8dff73dff7-b455fc5fe848b03e72.jpg https://graph.org/file/279470caeb1543860c794-df7399bccafdc2cd99.jpg https://graph.org/file/168d17c73ab7ee48fa8c4-3d0284914fc75a0ce7.jpg https://graph.org/file/e84966d6b6913d87be317-c6677fefde09fd0b9d.jpg')).split()
 WELCOME_VID = environ.get("WELCOME_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 
 #premium imag
@@ -49,7 +49,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "me_miss_you") # widout 👉 @
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002440632621').split()]
 # post channel auto post new movie
-POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002189699605').split(','))))
+POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002189699605 -1002583067007').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001516086171'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
@@ -93,7 +93,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ajmoviegroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Ajeet_bots')
-MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
+MSG_ALRT = environ.get('MSG_ALRT', '🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - 𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002400433284))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002352781135)) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002352781135)) # movies request channel, else log channel
