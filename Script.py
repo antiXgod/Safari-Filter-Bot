@@ -217,7 +217,7 @@ Money heist S0E01
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}</b> 
-ꜰᴏʀ ᴍᴏʀᴇ :☞ @Ajeet_bots"""
+<b><spoiler> ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href=https://t.me/Ajeet_bots>𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ</b></spoiler></a>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
