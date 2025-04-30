@@ -164,6 +164,7 @@ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
 
     LOG_TEXT_P = """#NewUser
+    @sierrafilterrobot 
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}
 Bᴏᴛ {}"""
@@ -183,6 +184,7 @@ sᴇᴀʀᴄʜ🔍 ғᴏʀᴍᴀᴛ 👇
 
 Pushpa 2021
 Money heist S0E01
+Iron man
 
 ᴏɴʟʏ ɴᴀᴍᴇ ᴏʀ ʏᴇᴀʀ ɴᴏ ᴇxᴛʀᴀ ᴡᴏʀᴅ</i>"""
 
@@ -229,12 +231,14 @@ Money heist S0E01
     CHANNELS = """
 <b>ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs </b>"""
     
-    STATUS_TXT = """<b>    
+    STATUS_TXT = """<b> 
+ㅤㅤㅤ╔⏤⏤⏤╝❀╚⏤⏤⏤╗   
 ‣ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{}</code>
 ‣ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : <code>{}</code>
 ‣ ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘꜱ : <code>{}</code>
 ‣ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
 ‣ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
+      ╚⏤⏤⏤╗❀╔⏤⏤⏤╝
 </b>"""
 
     DISCLAIMER_TXT = """
