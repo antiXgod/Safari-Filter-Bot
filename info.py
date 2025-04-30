@@ -47,7 +47,7 @@ LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6003799985 5935267941 1329298095 5264985514 1923770971 6957554126').split()]
 OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "me_miss_you") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002440632621').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002526032551').split()]
 # post channel auto post new movie
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002189699605').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001516086171'))
@@ -91,7 +91,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ajmoviegroup')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ajmoviesgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Ajeet_bots')
 MSG_ALRT = environ.get('MSG_ALRT', '🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - 𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002400433284))
