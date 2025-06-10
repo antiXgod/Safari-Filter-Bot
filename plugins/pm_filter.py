@@ -1323,11 +1323,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ ᴜᴘᴅᴀᴛᴇꜱ ✪', callback_data='channels'), 
-                    InlineKeyboardButton('⚔️ғᴇᴀᴛᴜʀᴇs ⚔️', callback_data='features')
+                    InlineKeyboardButton('😶‍🌫️ ᴜᴘᴅᴀᴛᴇꜱ 😶‍🌫️', callback_data='channels'), 
+                    InlineKeyboardButton('🌝ғᴇᴀᴛᴜʀᴇs 🌝', callback_data='features')
                 ],[
-                    InlineKeyboardButton('🍀 Hᴇʟᴘ 🍀', callback_data='help'),
-                    InlineKeyboardButton('🤖 ᴀʙᴏᴜᴛ 🤖', callback_data='about')
+                    InlineKeyboardButton('💗 Hᴇʟᴘ 💗', callback_data='help'),
+                    InlineKeyboardButton('❤️‍🔥 ᴀʙᴏᴜᴛ ❤️‍🔥', callback_data='about')
                 ],[
                     InlineKeyboardButton('🆓 ᴘʀᴇᴍɪᴜᴍ ✨', callback_data="pm_reff"),
                     InlineKeyboardButton('✨ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ✨', callback_data="premium_info")
@@ -1780,7 +1780,7 @@ async def auto_filter(client, msg, spoll=False):
                 return
             if len(message.text) < 100:
                 search = message.text
-                m=await message.reply_sticker(sticker="CAACAgUAAxkBAAPrZ64-fIZnhPy4xnZo-HaSEC8whCMAAsUCAAJRbyhWEZhCzfOICSEeBA",
+                m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI0LWhIjyR3DAYeZx9pKkZlpFEL4huVAAIyEQACXjzZVVy7_tLyh-GJHgQ",
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏 𝘽𝘼𝘽𝙔", url=CHNL_LNK)]]))
                 search = search.lower()
                 find = search.split(" ")
@@ -1800,7 +1800,7 @@ async def auto_filter(client, msg, spoll=False):
                 if not files:
                     await m.delete()
                     if settings["spell_check"]:
-                        ai_sts = await message.reply_sticker(sticker=f"CAACAgUAAxkBAAPzZ65DxBCJe2lFdskRZKAeT9Im_gQAAo4EAAJjRShWeGrsrE_nNNseBA")
+                        ai_sts = await message.reply_sticker(sticker=f"CAACAgUAAxkBAAI0NWhInFHyGDOcP7bCZ-dVnw9MeoCPAALdFQACa0ogVnpV974ITq6sHgQ")
                         st=await message.reply('<b>Ai is Cheking For Your Spelling. Please Wait.</b>') 
                         is_misspelled = await ai_spell_check(chat_id = message.chat.id,wrong_name=search)
                         if is_misspelled:
@@ -1820,7 +1820,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             message = msg.message.reply_to_message  # msg will be callback query
             search, files, offset, total_results = spoll
-            m=await message.reply_sticker(sticker="CAACAgUAAxkBAAPrZ64-fIZnhPy4xnZo-HaSEC8whCMAAsUCAAJRbyhWEZhCzfOICSEeBA",
+            m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI0LWhIjyR3DAYeZx9pKkZlpFEL4huVAAIyEQACXjzZVVy7_tLyh-GJHgQ",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝙋𝙇𝙀𝘼𝙎𝙀 𝙒𝘼𝙄𝙏 𝘽𝘼𝘽𝙔", url=CHNL_LNK)]]))
             settings = await get_settings(message.chat.id)
         key = f"{message.chat.id}-{message.id}"
