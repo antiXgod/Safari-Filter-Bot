@@ -1,12 +1,11 @@
 class script(object):
-    START_TXT = """<b><i>𝗛ᴇʏ 😎</i></b> {}, 💥
-    
-<b> <blockquote> 𝗜 𝗔ᴍ 𝗠ᴏꜱᴛ 𝗔ᴅᴠᴀɴᴄᴇ 𝗔ɴᴅ 𝗔ɪ 𝗣ᴏᴡᴇʀᴇᴅ 𝗧ᴠ 𝗘ɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ 𝗕ᴏᴛ 𝗧ʜᴀᴛ 𝗣ʀᴏᴠɪᴅᴇꜱ 𝗦ᴇʀɪᴇꜱ 𝗧ᴠ 𝗦ᴇʀɪᴀʟꜱ 𝗠ᴏᴠɪᴇꜱ 𝗖ᴀʀᴛᴏᴏɴꜱ 𝗔ɴᴅ 𝗠ᴜᴄʜ 𝗠ᴏʀᴇ ......
-𝗝ᴜꜱᴛ 𝗦ᴇɴᴅ 𝗠ᴇ 𝗔ɴʏ 𝗠ᴏᴠɪᴇꜱ & 𝗦ᴇʀɪᴇꜱ 𝗡ᴀᴍᴇ 𝗔ɴᴅ 𝗦ᴇᴇ 𝗠ʏ 𝗣ᴏᴡᴇʀ.</blockquote> </b>
-<b> <blockquote><spoiler>💓 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href=https://t.me/me_miss_you>𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ </b></spoiler></blockquote></a>"""
+    START_TXT = """<b> <blockquote> <i>𝗛ᴇʏ 😎</i> </blockquote> </b> {}, 💥 
+    <b> <blockquote> 𝐈'ᴍ 𝐌ᴏꜱᴛ 𝐀ᴅᴠᴀɴᴄᴇ 𝐀ɴᴅ 𝐀ɪ 𝐏ᴏᴡᴇʀᴇᴅ 𝐓ᴠ 𝐄ɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ 𝐁ᴏᴛ 𝐓ʜᴀᴛ 𝐏ʀᴏᴠɪᴅᴇꜱ 𝐒ᴇʀɪᴇꜱ, 𝐓ᴠ 𝐒ᴇʀɪᴀʟꜱ, 𝐌ᴏᴠɪᴇꜱ 𝐂ᴀʀᴛᴏᴏɴꜱ 𝐀ɴᴅ 𝐌ᴜᴄʜ 𝐌ᴏʀᴇ ......
+𝐉ᴜꜱᴛ 𝐒ᴇɴᴅ 𝐌ᴇ 𝐀ɴʏ 𝐌ᴏᴠɪᴇꜱ & 𝐒ᴇʀɪᴇꜱ 𝐍ᴀᴍᴇ 𝐀ɴᴅ 𝐒ᴇᴇ 𝐌ʏ 𝐏ᴏᴡᴇʀ.........</blockquote> </b> <b> <blockquote><spoiler>💓 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href=https://t.me/me_miss_you>𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ </b></spoiler></blockquote></a>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
-ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
+ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.
+𝑻𝑶 𝑪𝑹𝑬𝑨𝑻𝑬 𝑶𝑾𝑵 𝑴𝑶𝑽𝑰𝑬 𝑩𝑶𝑻 𝑫𝑴 @Me_Miss_You [𝑷𝑨𝑰𝑫] </b>"""
 
     
     BLACKLIST = ['tamilblaster', 'filmyzilla', 'streamershub', 'xyz', 'cine', 'www', 'http', 'https',
