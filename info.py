@@ -30,9 +30,9 @@ PICS = (environ.get('PICS', 'https://graph.org/file/4cee0b08e126a738c233e-0e8f7a
 WELCOME_VID = environ.get("WELCOME_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 
 #premium imag
-REFFER_PIC = environ.get('REFFER_PIC', '')
-PREMIUM_PIC = environ.get('SUBSCRIPTION', '')
-QR_CODE = environ.get('QR_CODE', '') # Scanner Code image 
+REFFER_PIC = environ.get('REFFER_PIC', 'https://graph.org/file/d09b2c6d47301185151af-29d54003ee869768a6.jpg')
+PREMIUM_PIC = environ.get('SUBSCRIPTION', 'https://graph.org/file/d09b2c6d47301185151af-29d54003ee869768a6.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/5c5d6af946f83a46d66d3-215aa2d565bd57892f.jpg') # Scanner Code image 
 #refer time, or feffer count
 REFERAL_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
 REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count 
@@ -47,9 +47,9 @@ LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1737525036 5935267941').split()]
 OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "sauravjoshi2007") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001983369508').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002682569147').split()]
 # post channel auto post new movie
-POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1001983369508').split(','))))
+POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002682569147').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002881402910'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
